@@ -78,7 +78,7 @@ class _QuoteHomePageState extends State<QuoteHomePage> {
     });
     try {
       final response = await http.get(
-        Uri.parse('https://zenquotes.io/api/random'),
+        Uri.parse('https://yourapiurl'),
       );
 
       if (response.statusCode == 200) {
